@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box;
+  font-family: "Anta", sans-serif;
+  background: url("./assets/mario-bg.jpg") center no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  gap: 3rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.grid {
+  width: 606px;
+  height: 606px;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("./assets/soil.png");
+  background-size: cover;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  border: 1px solid white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mole {
+  background-image: url("./assets/mole.png");
+  background-size: cover;
+}
+
+.start-btn {
+	display: inline-block;
+	margin-bottom: 2rem;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 12px 24px ;
+  background-color: ;
+  text-shadow: -1px -1px black, 1px 1px white;
+  color: gray;
+  -webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	border-radius: 7px;
+  box-shadow: 0 .2em gray; 
+  cursor: pointer;
+}
+
+.start-btn:active {
+	box-shadow: none;
+	position: relative;
+	top: .2em;
+}
